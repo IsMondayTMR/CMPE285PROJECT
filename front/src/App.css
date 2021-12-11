@@ -1,0 +1,144 @@
+.App {
+  background: linear-gradient(to right, #82bbe7, #d3e9fa);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  height:40px;
+  width: 150px;
+
+  background-color: #1b9cff;
+  outline: none;
+  color: white;
+  border-radius: 6px;
+  border-color: #8aceff;
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.25s;
+}
+
+.btn{
+  background-image: linear-gradient(90deg, #1c7eff 0%, #1cacff 30%, #2bbcff 60%, #1c7eff 85%);
+  animation:slidebg 20s linear infinite;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 0.625em;
+  padding: 1em 2.5em;
+  border: none;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.btn:hover,.btn:focus{
+  background-image: linear-gradient(90deg, #00C0FF 0%, #2ef88d 49%, #4ffcab88 80%, #00C0FF 100%);
+  animation:slidebg 7s linear infinite;
+  opacity: 0.75;
+  color: black;
+  transform: scale(1.1);
+}
+
+.btn:active{
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+
+}
+
+@keyframes slidebg {
+  to {
+    background-position:100vw;
+  }
+}
+
+
+.Chart {
+  width: 100%;
+}
+
+.NewUser{
+
+
+  outline: none;
+  color: rgb(0, 26, 255);
+  border: none;
+  background-color: hsla(0, 100%, 90%, 0.0);;
+  font-size: 15px;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.NewUser:hover{
+  cursor: pointer;
+}
+
+.Title {
+
+
+  font-weight: bolder;
+
+  font-size: 50px;
+
+  margin-right: 20%;
+}
+
+.Page {
+  
+
+  width: 1500px;
+
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.ChartTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 100px;
+}
+
+.UserHome {
+  width: 700px;
+  margin-top: -3.5rem;
+  background-color: white;
+  height: 86vh;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.InvestForm{
+  width: 500px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Selector {
+  width: 300px;
+  font-size: 20px;
+}
+
+.InvestAmount {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.Header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 100px;
+}

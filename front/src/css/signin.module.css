@@ -1,0 +1,168 @@
+.signinContainer {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    height: 700px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 10%;
+    right : 35%;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 2px 2px 10px 5px rgb(200, 200, 200);
+    border-radius: 2%;
+    padding-top: 30px;
+    border: 2px solid rgb(187, 187, 187);
+    z-index: 10;
+    /* transition: width 2s, height 2s, background-color 2s, transform 2s; */
+}
+
+.signinContainer:hover {
+    /* background-color: rgb(232, 255, 228); */
+    
+}
+.signinForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.title{
+    margin-top: 30px;
+    height: 30px;
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: rgb(65, 121, 211);
+}
+
+.inputBox{
+    height: 50px;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid rgb(226, 226, 226);
+    padding-left: 20px;
+    background: rgb(240, 240, 240);
+}
+
+.inputBox:focus {
+    outline-width: 0;
+}
+.inputBox::placeholder {
+    font-size: 15px;
+    
+}
+
+.inputGroup {
+    width: fit-content;
+    margin-bottom: 30px;
+
+}
+
+.inputLabel {
+}
+.labelGroup {
+    width: 150px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+.button {
+    margin-top: 30px;
+    height: 50px;
+    width: 420px;
+    background-color: rgb(0, 122, 230);
+    border: 1px solid rgb(204, 204, 204);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+}
+
+.button:hover {
+    background-color: rgb(1, 78, 144);
+}
+.button:disabled {
+    color: rgb(150, 150, 150);
+    pointer-events: none;
+}
+.line {
+
+    width:450px;
+    height: 1px;
+    border-top: 1px solid rgb(143, 143, 143);
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.link {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+    margin: 0 10px;
+    padding-bottom : 10px;
+}
+
+.nav a{
+    text-decoration: none;
+}
+
+
+/* close button */
+
+.close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    width: 32px;
+    height: 32px;
+    opacity: 0.3;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 33px;
+    width: 2px;
+    background-color: #333;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+
+  /* user profile */
+  .ProfileContainer {
+      display: flex;
+      flex-direction: column;
+      width: 1200px;
+  }
+  .ProfileBlockContainer {
+        display: flex;
+  }
+  .ProfileBlock {
+      width: 300px;
+      height: 150px;
+      background-color: aliceblue;
+      margin: 20px auto;
+
+  }
+  .StrategyTitle {
+      font-size: 30px;
+      font-family:'Times New Roman', Times, serif;
+
+  }
